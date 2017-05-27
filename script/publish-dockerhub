@@ -13,7 +13,7 @@ cd "$(dirname "$0")/.."
 echo "Publishing Docker Hub..."
 
 docker build -t yuzukwok/testapi .
-docker login -u $DOCKER_USER -p $DOCKER_PASS
+docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
 docker tag yuzukwok/testapi $DOCKER_USER/testapi:latest
 docker push $DOCKER_USER/testapi
 

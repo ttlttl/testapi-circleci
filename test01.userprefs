@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="script/test">
+  <MonoDevelop.Ide.Workbench ActiveDocument="script/publish-dockerhub">
     <Files>
       <File FileName="circle.yml" Line="26" Column="36" />
       <File FileName="script/publish-dockerhub" Line="22" Column="9" />
