@@ -6,8 +6,8 @@
     - sudo sudo apt-get install dotnet-dev-1.0.4
   override:
     - dotnet restore
-jobs：
-  build：
+jobs:
+  build:
     setps:
       - run:
           name: Install Docker client
