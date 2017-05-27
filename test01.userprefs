@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="circle.yml">
     <Files>
-      <File FileName="circle.yml" Line="12" Column="46" />
-      <File FileName="Dockerfile" Line="1" Column="36" />
+      <File FileName="circle.yml" Line="23" Column="10" />
+      <File FileName="script/publish-dockerhub" Line="22" Column="9" />
+      <File FileName="test01/Startup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

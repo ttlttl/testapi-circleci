@@ -9,6 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{60053670
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{B8A22B63-3C49-4A49-8638-B498937FCD0B}"
+	ProjectSection(SolutionItems) = preProject
+		script\publish-dockerhub = script\publish-dockerhub
+		script\build = script\build
+		script\restore = script\restore
+		script\test = script\test
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
