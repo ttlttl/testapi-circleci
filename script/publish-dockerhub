@@ -14,7 +14,7 @@ echo "Publishing Docker Hub..."
 
 docker build --rm=false  -t yuzukwok/testapi .
 docker login -u $DOCKER_USER -p $DOCKER_PASSWORD -e $DOCKER_EMAIL
-docker tag yuzukwok/testapi $DOCKER_USER/testapi:latest
+docker tag yuzukwok/testapi $DOCKER_USER/testapi:1.0.$CIRCLE_BUILD_NUM
 docker push $DOCKER_USER/testapi
 
 echo "Done publishing!"
