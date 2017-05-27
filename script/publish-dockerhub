@@ -12,10 +12,10 @@ cd "$(dirname "$0")/.."
 
 echo "Publishing Docker Hub..."
 
-docker build --rm=false  -t yuzukwok/testapi .
+docker build --rm=false  -t docker.synyi.com/yuzukwok/testapi .
 docker login -u $DOCKER_USER  -p $DOCKER_PASSWORD  -e $DOCKER_EMAIL docker.synyi.com 
-docker tag yuzukwok/testapi $DOCKER_USER/testapi:1.0.$CIRCLE_BUILD_NUM
-docker push $DOCKER_USER/testapi
+docker tag docker.synyi.com/yuzukwok/testapi docker.synyi.com/$DOCKER_USER/testapi:1.0.$CIRCLE_BUILD_NUM
+docker push docker.synyi.com/$DOCKER_USER/testapi
 
 echo "Done publishing!"
 
