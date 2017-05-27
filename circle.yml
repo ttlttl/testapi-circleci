@@ -23,4 +23,7 @@ deployment:
   master:
     branch: master
     commands:
-      - sh script/publish-dockerhub
+      - sh script/publish-dockerhub 
+#notify:
+#  webhooks:
+#    - url：http://
